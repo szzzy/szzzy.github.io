@@ -6,10 +6,8 @@
   "url(https://pic.imgdb.cn/item/62c037be5be16ec74a8c1b21.jpg)"
 ];*/
 var backimg =[
-  "url(https://pic.rmb.bdstatic.com/bjh/3f076e2005afb4b23f5e70d0bcc61a99.jpeg)",
-  "url(https://pic.rmb.bdstatic.com/bjh/795d5374427226eb25fa4042a886f88c.jpeg)",
-  "url(https://pic.rmb.bdstatic.com/bjh/90c1c121fa400b5d54f9cf409850319e.jpeg)",
-  "url(https://pic.rmb.bdstatic.com/bjh/9f36760b83a06867d71fa557530b892a.jpeg)"
+  "url(https://s3.bmp.ovh/imgs/2023/01/12/d277207614c7b779.jpg)",
+  "url(https://s3.bmp.ovh/imgs/2023/01/12/8a06a181057988cc.jpg)",
 ];
 //获取背景图片总数，生成随机数
 var bgindex =Math.floor(Math.random() * (backimg.length));
@@ -23,10 +21,8 @@ document.getElementById("web_bg").style.backgroundImage = backimg[bgindex];
   "url(https://pic.imgdb.cn/item/62c037be5be16ec74a8c1b21.jpg)"
 ];*/
 var bannerimg =[
-  "url(https://pic.rmb.bdstatic.com/bjh/3f076e2005afb4b23f5e70d0bcc61a99.jpeg)",
-  "url(https://pic.rmb.bdstatic.com/bjh/795d5374427226eb25fa4042a886f88c.jpeg)",
-  "url(https://pic.rmb.bdstatic.com/bjh/90c1c121fa400b5d54f9cf409850319e.jpeg)",
-  "url(https://pic.rmb.bdstatic.com/bjh/9f36760b83a06867d71fa557530b892a.jpeg)"
+  "url(https://s3.bmp.ovh/imgs/2023/01/12/d277207614c7b779.jpg)",
+  "url(https://s3.bmp.ovh/imgs/2023/01/12/8a06a181057988cc.jpg)",
 ];
 //获取banner图片总数，生成随机数
 var bannerindex =Math.ceil(Math.random() * (bannerimg.length-1));
